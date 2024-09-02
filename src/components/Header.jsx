@@ -1,5 +1,5 @@
 'use client'
-import {useTheme} from "@/hooks/theme";
+import useTheme from "@/hooks/useTheme";
 
 export default function Header () {
     const toggleTheme = useTheme();

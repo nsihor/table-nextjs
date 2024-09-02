@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import useLocalStorage from "@/hooks/useLocalStorage";
 
-export function useTheme() {
-    const [theme, setTheme] = useState('light');
+export default function useTheme() {
+    const [theme, setTheme] = useLocalStorage('theme','light');
 
     useEffect(() => {
         if (theme === "dark") {
