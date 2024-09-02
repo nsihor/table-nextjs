@@ -1,0 +1,5 @@
+.btn {
+  width: 139px;
+
+  @apply flex items-center justify-center gap-2 h-8 bg-accent rounded-lg text-text_light text-xs
+}
