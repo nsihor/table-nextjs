@@ -1,0 +1,15 @@
+.container {
+  @apply relative;
+
+  svg {
+    @apply absolute top-2 left-2;
+  }
+
+  &__input {
+    width: 218px;
+    @apply pl-8 h-8;
+    &::placeholder {
+    }
+  }
+
+}

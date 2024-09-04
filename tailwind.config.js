@@ -7,20 +7,16 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      accent: '#624DE3',
-      text_dark: '#000000',
-      text_light: '#FFFFFF',
-      bg_light: '#FFFFFF',
-      bg_dark: '#1D1E42',
-      t_row_secondary_light: '#F7F6FE',
-      t_row_secondary_dark: '#26264F',
-    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        accent: '#624DE3',
+        text_dark: '#000000',
+        text_light: '#FFFFFF',
+        text_grey: '#9E9E9E',
+        bg_light: '#FFFFFF',
+        bg_dark: '#1D1E42',
+        t_row_secondary_light: '#F7F6FE',
+        t_row_secondary_dark: '#26264F'
       },
       padding: {
         4: '16px',
